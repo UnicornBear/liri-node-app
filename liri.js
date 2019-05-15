@@ -53,13 +53,14 @@ function spotify(userInput) {
 	});
 };
 
+
 //concert-this function
 function concert(userInput) {
     // queryURL for the Town Artist Events API
     var queryURL = "https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp";
 
     // data request for queryURL
-    request(queryURL, function(error,response,data){
+    request(queryURL, function(error,response,data) {
         // json parse body
         var jsonData = JSON.parse(data);
           for(var i in jsonData) {
@@ -73,3 +74,28 @@ function concert(userInput) {
         }
     });
 };
+
+
+// movie-this function
+function movie(userInput) {
+
+    var queryURL = "http://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=af0a456a";
+
+	request(queryURL, function(error, response, data) {
+        var jsonData =  JSON.parse(data)
+		    console.log("Title: " + jsonData.Title);
+		    console.log("Release Year: " + jsonData.Year);
+		    console.log("IMDB Rating: " + jsonData.imdbRating);
+		    console.log("Rotten Tomatoes Rating: " + jsonData.Ratings[1].Value);
+		    console.log("Country: " + jsonData.Country);
+		    console.log("Language: " + jsonData.Language);
+		    console.log("Plot: " + jsonData.Plot);
+		    console.log("Actors: " + jsonData.Actors);
+		
+	});
+};
+
+
+
+
+
