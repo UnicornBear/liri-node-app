@@ -3,13 +3,14 @@
     var request = require("request");
     var Spotify = require("node-spotify-api");
     var fs = require("fs");
-    var keys = require("./keys.js");
     var moment = require("moment");
 
     // get action and userInput for search
     var action = process.argv[2];
     var userInput = process.argv.slice(3).join(" ");
 
+        
+    var keys = require("./keys.js");
 
 // switch function for the desired actions [2]
 // movie-this  |  do-what-it-says  |  spotify-this-song  |  concert-this
