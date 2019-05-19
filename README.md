@@ -16,22 +16,23 @@ What does LIRI Do?  How
 Utilize Spotify API through documentation
 
 # Artist
-  - name
+  - Song name
   - A preview link
   - The album
 
-# Movies
-  - The following information
+# Concert Artist
+  - Venue Name
+  - Date of Concert
+  - City/ Country
+  - Location Lat and Long
 
 # Title of the movie.
-  - Year the movie came out.
-  - IMDB Rating of the movie.
-  - Country where the movie was produced.
-  - Language of the movie.
-  - Plot of the movie.
-  - Actors in the movie.
-  - Rotten Tomatoes Rating.
-  - Rotten Tomatoes URL.
+  - Release Year
+  - IMDB Rating of the movie
+  - Country movie was produced
+  - Language of the movie
+  - Plot
+  - Actors
 
 # Do What It Says
   - do-what-it-says
