@@ -8,7 +8,8 @@ this LIRI application is first attempt at a command line node app that will take
   - Spotify we use package for omdb
   - Other commands use axios
 
-# Link to video   https://
+# Link to video   
+- https://
 
 # Assignement Challenges
 node.js.
