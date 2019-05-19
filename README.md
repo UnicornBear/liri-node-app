@@ -15,18 +15,21 @@ node.js.
 What does LIRI Do?  How 
 Utilize Spotify API through documentation
 
-# Artist
+# spotify-this-song
+  - Artist
   - Song name
   - A preview link
   - The album
 
-# Concert Artist
+# concert-this
+  - Concert Artist
   - Venue Name
   - Date of Concert
   - City/ Country
   - Location Lat and Long
 
-# Title of the movie.
+# movie-this
+  - Title of the movie
   - Release Year
   - IMDB Rating of the movie
   - Country movie was produced
@@ -34,8 +37,7 @@ Utilize Spotify API through documentation
   - Plot
   - Actors
 
-# Do What It Says
-  - do-what-it-says
+# do-what-it-says
   - LIRI will take the text inside of random.txt and then use it to call
 
   - It will run spotify-this-song for "I Want it That Way,".
