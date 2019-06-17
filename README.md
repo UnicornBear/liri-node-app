@@ -9,7 +9,7 @@ this LIRI application is first attempt at a command line node app that will take
   - Other commands use axios
 
 # Link to video   
-- https://
+- https://www.youtube.com/watch?v=BCPez4rhJIE&feature=youtu.be&hd=1
 
 # Assignement Challenges
 node.js.
